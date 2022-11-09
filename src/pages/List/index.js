@@ -41,6 +41,10 @@ const Scene = ({ navigation }) => {
     return navigation.push("Cart")
   }
 
+  const navigateToCreate = () => {
+    return navigation.push("Create")
+  }
+
   const navigateToDetail = (item) => {
     dispatch(typeUpdateSelected(item))
     return navigation.push("Detail")
@@ -101,6 +105,14 @@ const Scene = ({ navigation }) => {
               style={styles.iconSearch}
             />
           </Pressable>
+          <Pressable style={styles.add} onPress={navigateToCreate}>
+            <Ionicons
+              size={18}
+              color={"#fff"}
+              name='md-add'
+              style={styles.iconSearch}
+            />
+          </Pressable>
         </View>
         <FlatList
           data={getData()}
@@ -144,6 +156,14 @@ const styles = StyleSheet.create({
   cart: {
     flex: -1,
     marginLeft: 16,
+    borderRadius: 10,
+    paddingVertical: 12,
+    paddingHorizontal: 8,
+    backgroundColor: "black",
+  },
+  add: {
+    flex: -1,
+    marginLeft: 8,
     borderRadius: 10,
     paddingVertical: 12,
     paddingHorizontal: 8,

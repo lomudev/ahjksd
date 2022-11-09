@@ -2,7 +2,7 @@ import * as React from "react"
 import { useFonts } from "expo-font"
 import { Provider } from "react-redux"
 import store from "./src/redux"
-import { List, Detail, Cart } from "./src/pages"
+import { List, Detail, Cart, Create } from "./src/pages"
 import { NavigationContainer } from "@react-navigation/native"
 import { createNativeStackNavigator } from "@react-navigation/native-stack"
 
@@ -26,6 +26,11 @@ const MyStack = () => {
           <Stack.Screen
             name='List'
             component={List}
+            options={optionStackScreen}
+          />
+          <Stack.Screen
+            name='Create'
+            component={Create}
             options={optionStackScreen}
           />
           <Stack.Screen

@@ -45,6 +45,21 @@ export const getProducts = () => async (dispatch) => {
   }
 }
 
+export const createProduct = (payload) => async (dispatch) => {
+  try {
+    const res = await instance({
+      url: "/products",
+      method: "post",
+      data: payload.data,
+    })
+
+    return Promise.resolve(res.data)
+  } catch (error) {
+    console.log("Error getProducts", error)
+    return Promise.reject(error)
+  }
+}
+
 export const getCart = () => async (dispatch) => {
   try {
     const res = await instance({
