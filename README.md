@@ -4,8 +4,8 @@ Just having fun
 
 Pages | ScreenShoot | Detail| 
 --- | --- | --- |
-List Product | <img src="https://i.ibb.co/F6Nkv2Y/Simulator-Screen-Shot-i-Phone-14-Pro-2022-11-09-at-11-24-18.png" width="100" height="100"> | - |
-List Product | ![App Screenshot](https://i.ibb.co/F6Nkv2Y/Simulator-Screen-Shot-i-Phone-14-Pro-2022-11-09-at-11-24-18.png) | - |
+List Product | <img src="https://i.ibb.co/F6Nkv2Y/Simulator-Screen-Shot-i-Phone-14-Pro-2022-11-09-at-11-24-18.png" width="200"> | - |
+List Product | ![45](https://i.ibb.co/F6Nkv2Y/Simulator-Screen-Shot-i-Phone-14-Pro-2022-11-09-at-11-24-18.png) | - |
 Search Product | ![App Screenshot](https://i.ibb.co/5rLCgvh/Simulator-Screen-Shot-i-Phone-14-Pro-2022-11-09-at-11-24-45.png) | - |
 Detail product | ![App Screenshot](https://i.ibb.co/WfZSXW9/Simulator-Screen-Shot-i-Phone-14-Pro-2022-11-09-at-11-24-31.png) | with stock 0 |
 Detail product | ![App Screenshot](https://i.ibb.co/zJbbz28/Simulator-Screen-Shot-i-Phone-14-Pro-2022-11-09-at-11-25-11.png) | with stock > 0 |
